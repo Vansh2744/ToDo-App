@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(247, 199, 219);
+        background: radial-gradient(circle, rgb(240, 188, 211) 0%, rgb(170, 202, 239) 100%);
+}
+.container{
+    height: 85vh;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgba(0, 212, 255, 1);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    box-shadow: 10px 10px 10px gray;
+
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 20px;
+}
+.fa-plus{
+    margin: 12px;
+    font-size: 25px;
+    background-color: rgb(100, 62, 237);
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.fa-plus:hover{
+    cursor: pointer;
+    background-color: rgb(112, 77, 240);
+}
+li{
+    background-color: rgb(207, 43, 79);
+    width: 450px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 8px 10px red;
+    font-size: 25px;
+    font-weight: 900;
+}
+.add{
+    position: fixed;
+    display: flex;
+}
+ul{
+margin-top: 100px;
+}
+.fa-trash:hover{
+cursor:pointer;
+}
+h1{
+    margin: 10px 150px;
+}
+@media only screen and (width<600px) {
+    .container{
+        width: 90vw;
+    }
+    input{
+        width: 200px;
+    }
+    li{
+        width: 250px;
+        
+    }
+    h1{
+        font-size: 25px;
+        margin: 5px 70px;
+    }
+}
